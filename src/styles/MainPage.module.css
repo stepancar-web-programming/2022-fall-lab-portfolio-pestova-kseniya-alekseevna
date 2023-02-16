@@ -1,0 +1,14 @@
+.pageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    top: 120px;
+    left:45px;
+    width:1200px;
+    height: 220px;
+}

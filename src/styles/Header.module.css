@@ -1,0 +1,21 @@
+.headerBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    position: relative;
+    width: 1000px;
+    margin-top: 56px;
+    margin-left: 110px;
+
+    gap: 38%;
+}
+
+.headerBox h3{
+    color: #C37230;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 86.52%;
+}

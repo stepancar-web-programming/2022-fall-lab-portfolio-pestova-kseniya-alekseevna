@@ -1,0 +1,29 @@
+.titleBox {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px 65px;
+
+    position: relative;
+    width: 980px;
+    margin-top: 56px;
+    margin-left: 90px;
+
+    background: #F2BAA1;
+    border-radius: 50px;
+}
+
+
+.titleBox h1 {
+    position: relative;
+    margin: auto;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 86.52%;
+}
+

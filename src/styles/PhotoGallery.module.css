@@ -1,0 +1,31 @@
+.gallery {
+    width: 870px;
+    height: 489px;
+    position: relative;
+    margin-top: 100px;
+    left: 15%;
+    background-position: center;
+    background-size: cover;
+}
+
+.arrowleft {
+    position: absolute;
+    top: 228px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.arrowleft img {
+    height: 40px;
+}
+
+.arrowright{
+    position: absolute;
+    top: 228px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.arrowright img {
+    height: 40px;
+}
