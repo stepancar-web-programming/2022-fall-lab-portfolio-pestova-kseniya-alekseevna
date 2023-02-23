@@ -7,9 +7,9 @@ import classes from '../styles/VideoPlayer.module.css'
 export default function VideoPlayer() {
   return (
     <div className={classes.videoBox}>
-        <Video>
-            <source src={fireworks} type="video/webm"/>
-        </Video>
+      <Video>
+        <source src={fireworks} type="video/webm"/>
+      </Video>
     </div>
   )
 }

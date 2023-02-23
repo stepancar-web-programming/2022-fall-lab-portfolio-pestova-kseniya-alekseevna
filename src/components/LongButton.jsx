@@ -1,9 +1,13 @@
 import React from 'react'
 import classes from '../styles/LongButton.module.css'
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+const StyledLink = styled(Link)
+  `text-decoration: none;`;
 
 export default function LongButton({title="Направление", destination='/'}) {
   return (
-    <Link to={destination} style={{ textDecoration: 'none' }}> <div className={classes.lbutton}>{title}</div> </Link>
+    <StyledLink to={destination}> <div className={classes.lbutton}>{title}</div> </StyledLink>
   )
 }

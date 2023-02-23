@@ -8,15 +8,15 @@ import WantsPage from "../pages/WantsPage";
 import {AnimatePresence} from 'framer-motion';
 
 export default function AnimatedRoutes() {
-    const location = useLocation();
+  const location = useLocation();
   return (
     <AnimatePresence>
-    <Routes location={location} key={location.pathname}>
+      <Routes location={location} key={location.pathname}>
         <Route path="/" element={<MainPage />} />
         <Route path="/achievments" element={<AchivementsPage />} />
         <Route path="/hobbies" element={<HobbyPage />} />
         <Route path="/wants" element={<WantsPage />} />
-    </Routes>
+      </Routes>
     </AnimatePresence>
   )
 }

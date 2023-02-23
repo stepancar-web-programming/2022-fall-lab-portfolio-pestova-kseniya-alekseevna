@@ -7,9 +7,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-      <div className="App">
-        <AnimatedRoutes/>
-      </div>
+          <AnimatedRoutes/>
     </BrowserRouter>
     </div>
   );

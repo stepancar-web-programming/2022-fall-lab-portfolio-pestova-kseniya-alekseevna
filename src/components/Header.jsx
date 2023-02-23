@@ -1,13 +1,17 @@
 import React from 'react'
 import classes from '../styles/Header.module.css'
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+const StyledLink = styled(Link)
+  `text-decoration: none;`;
 
 export default function Header() {
   return (
     <div className={classes.headerBox}>
-        <Link to="/achievments" style={{ textDecoration: 'none' }}> <h3>Достижения</h3> </Link>
-        <Link to="/hobbies" style={{ textDecoration: 'none' }}> <h3>Хобби</h3> </Link>
-        <Link to="/wants" style={{ textDecoration: 'none' }}> <h3>Желания</h3> </Link>
+      <StyledLink to="/achievments"> <h3>Достижения</h3> </StyledLink>
+      <StyledLink to="/hobbies"> <h3>Хобби</h3> </StyledLink>
+      <StyledLink to="/wants"> <h3>Желания</h3> </StyledLink>
     </div>
   )
 }

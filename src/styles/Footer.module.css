@@ -21,11 +21,11 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 86.52%;
-    width: 184px;
+    width: 80%;
     color: white;
 
     position: absolute;
-    left:65px;
+    left:5%;
     top: 52px;
 
 }
@@ -43,7 +43,7 @@
     left: 80%;
     top: 80px;
 
-    margin-right: 30px;
+    margin-right: 5%;
 
 }
 
@@ -55,10 +55,37 @@
 }
 
 .dot {
-    width: 75px;
-    height: 37.5px;
+    aspect-ratio: 1 / 1;
+    width: 5%;
     background-color: #F2BAA1;
     border-top-left-radius: 37.5px;
     border-top-right-radius: 37.5px;
 }
 
+@media all and (max-width:1100px) {
+    .textcontent h1 {
+        font-size: 24px;
+    }
+
+    .textcontent a {
+        font-size: 10px;
+    }
+
+    .textcontent {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:600px) {
+    .textcontent h1 {
+        font-size: 15px;
+    }
+
+    .textcontent a {
+        font-size: 7px;
+    }
+
+    .textcontent {
+        flex-direction: column;
+    }
+}

@@ -16,7 +16,7 @@ export default function PhotoGallery({slides}) {
         setCurrentIndex(newIndex)
     }
     return (
-        <div className={classes.gallery} style={{backgroundImage: `url(${slides[currentIndex].url})`}}> 
+        <div className={classes.gallery} style={{backgroundImage: `url(${slides[currentIndex].url})`}} title={slides[currentIndex].title}> 
             <div className={classes.arrowleft} onClick={goToPrevious}>
                 <img src='https://lh3.googleusercontent.com/pw/AMWts8D5nrPE7AaiINVymEbf7ZC-RLYHF8tbavR-9ifnUfgaTXOfHk7hZhQUxv6EiKNJrYKOsn0RFotqeR6r8dCay6mQZTCUVL7DDo8Im1dyrUm3_76aMPSSKu-vDEkpGS1pPK4ZpFUa9WXv-WiWi8l2RfZ0=w40-h66-no?authuser=0' alt="left arrow"/>
             </div>

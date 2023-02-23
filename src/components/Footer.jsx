@@ -3,7 +3,6 @@ import classes from '../styles/Footer.module.css'
 
 export default function Footer() {
   return (
-    <>
     <div className={classes.footer}>
       <div className={classes.textcontent}>
         <h1>Связаться со мной:</h1>
@@ -29,6 +28,5 @@ export default function Footer() {
         <div className={classes.dot}></div>
       </div>
     </div>
-    </>
   )
 }

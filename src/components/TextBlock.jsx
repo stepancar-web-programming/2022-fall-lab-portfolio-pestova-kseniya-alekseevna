@@ -7,13 +7,19 @@ export default function TextBlock({
     fisrtColumnSecondParagraph="",
     secondColumnFirstParagraph="",
     secondColumnSecondParagraph="", }) {
-  return (
-      <div className={classes.textBlockLine}>
-          <div className={classes.textTitle}><h3>{title}</h3></div>
-          <div><p>{fisrtColumnFirstParagraph}</p>
-              <p>{fisrtColumnSecondParagraph} </p></div>
-          <div><p>{secondColumnFirstParagraph}</p>
-              <p>{secondColumnSecondParagraph}</p></div>
+    return (
+        <div className={classes.textBlockLine}>
+            <div className={classes.textTitle}>
+                <h3>{title}</h3>
+            </div>
+            <div>
+                <p>{fisrtColumnFirstParagraph}</p>
+                <p>{fisrtColumnSecondParagraph} </p>
+            </div>
+            <div>
+                <p>{secondColumnFirstParagraph}</p>
+                <p>{secondColumnSecondParagraph}</p>
+            </div>
       </div>
   )
 }
