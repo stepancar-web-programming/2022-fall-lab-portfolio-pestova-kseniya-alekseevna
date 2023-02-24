@@ -1,0 +1,21 @@
+.lbutton {
+    width: 491px;
+    height: 46px;
+    background-color: #C37230;
+    color: white;
+    border-radius: 50px;
+
+    position: relative;
+    top: 80px;
+    left: 365px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 86.52%;
+
+    text-align: center;
+    display: table-cell; 
+    vertical-align: middle
+}

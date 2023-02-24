@@ -1,0 +1,42 @@
+.textBlockLine {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    top: 58px;
+    left: 5%;
+    height: auto;
+    width: 90%;
+}
+
+.textTitle {
+    color: #C37230;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 86.52%;
+
+    width: 220px;
+}
+
+.textBlockLine p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 107.02%;
+
+    color: #F2BAA1;
+
+    width: 370px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+@media all and (max-width:1100px) {
+    .textBlockLine {
+        flex-direction: column;
+    }
+    
+}
