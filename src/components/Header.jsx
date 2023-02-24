@@ -1,10 +1,11 @@
-import React from 'react'
-import classes from '../styles/Header.module.css'
+import React from 'react';
+
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const StyledLink = styled(Link)
-  `text-decoration: none;`;
+import classes from '../styles/Header.module.css';
+
+const StyledLink = styled(Link)`text-decoration: none;`;
 
 export default function Header() {
   return (
@@ -13,5 +14,5 @@ export default function Header() {
       <StyledLink to="/hobbies"> <h3>Хобби</h3> </StyledLink>
       <StyledLink to="/wants"> <h3>Желания</h3> </StyledLink>
     </div>
-  )
+  );
 }
